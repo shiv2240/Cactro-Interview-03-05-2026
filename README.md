@@ -10,6 +10,13 @@ A simplified Instagram Stories feature built using React Native (Expo). This pro
 > 📱 **Note on Testing**
 > Instagram is specifically designed for mobile devices. Since the live demo is a React Native Web build, **please view it on a mobile device**, or toggle the "Device Toolbar" (Mobile View) in your desktop browser's Developer Tools for the correct, intended experience.
 
+**Note:** I used expo Go Application for testing the app on my physical device.
+`npm install -g eas-cli`
+`eas login`
+`eas build:configure` / `eas build`
+For Web
+`npx expo export -p web`
+
 ## Features Implemented
 
 - **Story Feed:** Horizontally scrollable list of users.
